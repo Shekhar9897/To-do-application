@@ -1,5 +1,7 @@
 # To-do-application
-In this Application
+
+In this Application, about project explanation of the ci/cd project of docker sample application. 
+In this project we are going to learn many thing about ci/cd which happens in real time. We are going to learn **ci/cd setup**, **Webhook trigger**, **pipeline script, Jenkinsfile, docker file and many more**...
 This tutorial was written with the intent of helping folks get up and running with containers and is designed to work with Docker Desktop. While not going too much into depth, it covers the following topics:
 
 Running container
@@ -14,7 +16,7 @@ Using image layer caching to speed up builds and reduce push/pull size
 Using multi-stage builds to separate build-time and runtime dependencies
 
 **Getting Started**
-If you wish to run the tutorial, you can use the following command after installing Docker Desktop:
+If you wish to run , you can use the following command after installing Docker Desktop:
 
 docker run -d -p 80:80 docker/getting-started
 Once it has started, you can open your browser to http://localhost.
