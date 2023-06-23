@@ -13,7 +13,7 @@ COPY .. .
 RUN yarn install --production
 
 # Specify the command to run the Node.js application
-CMD ["node", "src/index.js"]
+CMD ["node", "app/src/index.js"]
 
 # Expose the port on which the application will listen
 EXPOSE 3000
