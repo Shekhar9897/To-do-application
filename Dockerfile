@@ -7,13 +7,13 @@ RUN apk add --no-cache python2 g++ make
 WORKDIR /app
 
 # Copy the application code to the working directory
-COPY .. .
+COPY . .
 
 # Install production dependencies
 RUN yarn install --production
 
 # Specify the command to run the Node.js application
-CMD ["node", "app/src/index.js"]
+CMD ["node", "src/index.js"]
 
 # Expose the port on which the application will listen
 EXPOSE 3000
